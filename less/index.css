@@ -1,0 +1,289 @@
+/* pc端 */
+html {
+  background-color: #f1f1f1;
+}
+.title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.title a {
+  display: flex;
+}
+.title a span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #d3079e;
+  border-bottom: 10px transparent solid;
+  border-left: 10px transparent solid;
+  border-right: 10px transparent solid;
+}
+.title img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner img {
+  display: block;
+  width: 100%;
+}
+.banner .yuan {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.banner .yuan span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 5px;
+}
+.t_nav {
+  width: 100%;
+}
+.t_nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.t_nav ul li {
+  width: 33%;
+  margin-top: 10px;
+}
+.t_nav ul li a {
+  display: block;
+  width: 100%;
+}
+.t_nav ul li a img {
+  display: block;
+  width: 100%;
+}
+.list_nav {
+  width: 100%;
+}
+.list_nav ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_nav ul li {
+  width: 24%;
+  border-top: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+}
+.list_nav ul li img {
+  width: 100%;
+}
+.list_nav ul li:nth-child(4n) {
+  border-right: 0 none;
+}
+.theam {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px #ccc solid;
+}
+.theam .theam_l {
+  width: 49.9%;
+  padding-right: 1px;
+  box-sizing: border-box;
+  border-right: 1px #ccc solid;
+}
+.theam .theam_l img {
+  width: 100%;
+  padding-left: 1px;
+  box-sizing: border-box;
+}
+.theam .theam_r {
+  width: 50%;
+}
+.theam .theam_r img {
+  width: 100%;
+}
+.hot {
+  width: 100%;
+  margin-bottom: 1px;
+}
+.hot h4 {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+.hot li {
+  width: 100%;
+  border-bottom: 1px #535252 solid;
+}
+.hot img {
+  width: 100%;
+}
+.b_nav {
+  width: 100%;
+  padding: 10px 0;
+}
+.b_nav ul {
+  width: 100%;
+  display: flex;
+}
+.b_nav ul li {
+  width: 50%;
+  text-align: center;
+}
+.b_nav ul li a:hover {
+  color: #d3079e;
+  border-bottom: 1px solid #d3079e;
+}
+.active {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.active img {
+  width: 100%;
+}
+.active span {
+  color: #000;
+  margin: 10px 0;
+}
+.active p {
+  font-size: 18px;
+  color: #000;
+}
+.look {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  background-color: #fff;
+}
+.look span {
+  display: inline-block;
+  width: 0px;
+  height: 0;
+  border-top: 10px #3d3c3c solid;
+  border-right: 10px transparent solid;
+  border-bottom: 10px transparent solid;
+  border-left: 10px transparent solid;
+  position: absolute;
+  top: 15px;
+  left: 53%;
+}
+.footer {
+  width: 100%;
+  background-color: #d3079e;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.footer ul {
+  display: flex;
+}
+.footer ul li {
+  margin-left: 10px;
+}
+.footer ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* 移动端 */
+@media only screen and (max-width: 768px) {
+  .title {
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .t_nav {
+    width: 100%;
+  }
+  .t_nav ul {
+    width: 100%;
+  }
+  .t_nav ul li {
+    width: 33%;
+  }
+  .t_nav ul li a {
+    display: block;
+    width: 100%;
+  }
+  .t_nav ul li a img {
+    display: block;
+    width: 100%;
+  }
+  .list_nav {
+    width: 100%;
+  }
+  .list_nav li {
+    width: 24.9%;
+  }
+  .list_nav li img {
+    width: 100%;
+  }
+  .theam {
+    width: 100%;
+  }
+  .theam .theam_l {
+    width: 50%;
+  }
+  .theam .theam_l img {
+    width: 100%;
+  }
+  .theam .theam_r {
+    width: 50%;
+  }
+  .theam .theam_r img {
+    width: 100%;
+  }
+  .hot {
+    width: 100%;
+  }
+  .hot h4 {
+    width: 100%;
+  }
+  .hot h4 li {
+    width: 100%;
+  }
+  .hot h4 li a {
+    width: 100%;
+  }
+  .hot h4 li a img {
+    width: 100%;
+  }
+  .b_nav {
+    width: 100%;
+  }
+  .b_nav ul {
+    width: 100%;
+  }
+  .b_nav ul li {
+    width: 50%;
+  }
+  .active {
+    width: 100%;
+  }
+  .active img {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+}
